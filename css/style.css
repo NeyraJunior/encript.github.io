@@ -1,0 +1,21 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+    width: auto;
+    height: auto;
+    color: #fff;
+    background: linear-gradient(45deg,red,blue,green,black);
+    background-size: 1000% 1000%;
+    position: relative;
+    animation: cambia 10s ease infinite;
+}
+
+@keyframes cambia {
+    0%{background-position:0 50% ;}
+    50%{background-position:100% 50% ;}    
+    100%{background-position:0 50% ;}    
+
+}
+h1{
+    position: relative;
+}
